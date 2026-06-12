@@ -45,19 +45,13 @@ The platform leverages AWS serverless and containerized services to provide high
 
 ## Technology Stack
 
-Backend:
-- Python
-- AWS Lambda
-- Amazon ECS
-
-Database:
-- PostgreSQL (Amazon RDS)
-
-Infrastructure:
-- Terraform
-
-Cloud Platform:
-- AWS
-
-Monitoring:
-- Amazon CloudWatch
+Client: AWS CLI / REST API
+Backend: Python (Lambda, ECS)
+Database: PostgreSQL (RDS)
+Storage: Amazon S3
+Networking: VPC, Subnets, NAT Gateway
+Security: IAM, Security Groups
+Monitoring: CloudWatch
+DNS: Route 53
+Infrastructure: Terraform
+Compute: EC2 (Bastion Host)
