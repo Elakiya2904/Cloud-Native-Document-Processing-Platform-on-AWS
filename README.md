@@ -43,15 +43,21 @@ The platform leverages AWS serverless and containerized services to provide high
 <img width="731" height="627" alt="image" src="https://github.com/user-attachments/assets/60513815-c793-4122-a5f5-7c2584840e76" />
 
 
-## Technology Stack
+## 🛠️ Tech Stack
 
-Client: AWS CLI / REST API
-Backend: Python (Lambda, ECS)
-Database: PostgreSQL (RDS)
-Storage: Amazon S3
-Networking: VPC, Subnets, NAT Gateway
-Security: IAM, Security Groups
-Monitoring: CloudWatch
-DNS: Route 53
-Infrastructure: Terraform
-Compute: EC2 (Bastion Host)
+| Category | Technology |
+|-----------|------------|
+| Cloud Provider | AWS |
+| Compute | Amazon EC2, Amazon ECS, AWS Lambda |
+| Storage | Amazon S3 |
+| Database | Amazon RDS (PostgreSQL) |
+| Networking | VPC, Public & Private Subnets, Internet Gateway, NAT Gateway |
+| Security | IAM, Security Groups |
+| DNS & Routing | Amazon Route 53 |
+| Monitoring | Amazon CloudWatch |
+| Infrastructure as Code | Terraform |
+| Backend | Python |
+| API Layer | ECS-based REST API |
+| Access Method | AWS CLI, Linux Terminal |
+| Operating System | Amazon Linux 2 |
+| Version Control | Git, GitHub |
