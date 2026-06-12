@@ -40,7 +40,7 @@ The platform leverages AWS serverless and containerized services to provide high
 5. Results stored in RDS
 6. ECS API serves processed results
 7. CloudWatch monitors the system
-   <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5f3794f1-c9bb-499d-8029-45426dff4382" />
+<img width="731" height="627" alt="image" src="https://github.com/user-attachments/assets/60513815-c793-4122-a5f5-7c2584840e76" />
 
 
 ## Technology Stack
